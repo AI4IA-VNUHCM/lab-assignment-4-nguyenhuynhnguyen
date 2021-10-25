@@ -37,9 +37,9 @@ void Ex1(int n){
         else
             arr[line][i] = arr[line - 1][i - 1] +
                             arr[line - 1][i];
-        cout << arr[line][i] << " ";
+        printf("%d", arr[line][i]);
         }
-        cout << "\n";
+        printf("\n");
     }
 }
 
